@@ -1,5 +1,8 @@
 package OOP;
 
+import java.io.PrintStream;
+import java.util.Arrays;
+
 public class Cat {
     String color;
     double weight;
@@ -30,6 +33,11 @@ public class Cat {
             return "Mouse";
         } return "Own";
     }
+
+    public void feed(String ...product){ //varArgs ...nameАргумент (може бути лише в кінці) типу мето, з переліком даних, або без нього
+        System.out.printf("Cat eaten: %s", Arrays.toString(product));
+    }
+
 
     public String hunt(boolean isDay, boolean success){
         if(success){
