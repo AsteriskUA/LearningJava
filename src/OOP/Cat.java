@@ -34,8 +34,8 @@ public class Cat {
         } return "Own";
     }
 
-    public void feed(String ...product){ //varArgs ...nameАргумент (може бути лише в кінці) типу мето, з переліком даних, або без нього
-        System.out.printf("Cat eaten: %s", Arrays.toString(product));
+    public void feed(String giver , String ...product){ //varArgs ...nameАргумент (може бути лише в кінці) типу мето, з переліком даних, або без нього
+        System.out.printf("%s gave a cat to eat %s\n", giver, Arrays.toString(product));
     }
 
 

@@ -1,9 +1,18 @@
 package OOP;
 
+import java.util.Arrays;
+
 public class Dog {
-    String name;
-    int weigth;
-    String owner;
+    private String name = "Arista";
+    private int weigth = 13;
+    private String owner = "Vova";
+
+    {
+        System.out.println("New dog");
+    }
+    public Dog(){
+
+    }
 
     public Dog(String name, int weigth, String owner) {
         if (weigth < 1){
@@ -34,5 +43,9 @@ public class Dog {
                 ", weigth=" + weigth +
                 ", owner='" + owner + '\'' +
                 '}';
+    }
+
+    public void feed(String giver , String ...product){ //varArgs ...nameАргумент (може бути лише в кінці) типу мето, з переліком даних, або без нього
+        System.out.printf("%s gave a dog to eat %s\n", giver, Arrays.toString(product));
     }
 }
