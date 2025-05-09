@@ -1,6 +1,4 @@
-package OOP;
-
-import java.util.Arrays;
+package OOP.Zoo;
 
 public class Zoo {
     private Cat cat;

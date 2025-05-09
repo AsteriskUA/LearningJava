@@ -1,4 +1,4 @@
-package Nachalo.None;
+package None;
 
 public class WhileEx {
     public static void main(WhileEx[] args) {

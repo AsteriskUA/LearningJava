@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Zoo;
 
 import java.util.Arrays;
 

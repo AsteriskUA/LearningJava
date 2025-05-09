@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Zoo;
 
 public class TaskaaRun {
     public static void main(String[] args) {

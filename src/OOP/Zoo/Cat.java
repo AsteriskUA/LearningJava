@@ -1,6 +1,5 @@
-package OOP;
+package OOP.Zoo;
 
-import java.io.PrintStream;
 import java.util.Arrays;
 
 public class Cat {

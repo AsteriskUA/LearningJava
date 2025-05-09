@@ -1,4 +1,4 @@
-package Nachalo.None;
+package None;
 
 public class DoWhile {
     public static void main(DoWhile[] args) {

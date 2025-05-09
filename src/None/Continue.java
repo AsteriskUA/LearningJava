@@ -1,4 +1,4 @@
-package Nachalo.None;
+package None;
 
 public class Continue {
     public static void main(Continue[] args) {
