@@ -4,12 +4,16 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Poodle extends Dog{
 
+    public Poodle() {
+        super(30);
+    }
+
     public void DogRun(){
-        System.out.println("Собака біжить повільно");
+        System.out.println("Пудель біжить повільно");
     }
 
     @Override
     public void breath() {
-        System.out.println("Собака дихає");
+        System.out.println("Пудель дихає");
     }
 }
