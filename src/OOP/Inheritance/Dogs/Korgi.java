@@ -1,4 +1,4 @@
-package OOP.Inheritance;
+package OOP.Inheritance.Dogs;
 
 public class Korgi extends Dog{
     public Korgi() {
@@ -17,6 +17,14 @@ public class Korgi extends Dog{
     @Override
     public void breath() {
         System.out.println("Коргі дихає");
-
     }
+
+    public void byAngry(){
+        System.out.println("Коргі побачила підозрілу людину");
+        super.ByAngry();
+        System.out.println("Людина злякалась та пішла іншою дорогою");
+    }
+
+
+
 }

@@ -1,5 +1,8 @@
 package OOP.Inheritance;
 
+import OOP.Inheritance.Dogs.Korgi;
+import OOP.Inheritance.Dogs.Poodle;
+
 public class InheritanceRunner {
     public static void main(String[] args) {
 
@@ -15,6 +18,7 @@ public class InheritanceRunner {
         korgi.Bark();
         korgi.DogRun();
         korgi.breath();
+        korgi.byAngry();
         korgi.KorgiTeeth();
 
 

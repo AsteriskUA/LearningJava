@@ -1,8 +1,6 @@
-package OOP.Inheritance;
+package OOP.Inheritance.Dogs;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class Poodle extends Dog{
+public final class Poodle extends Dog{
 
     public Poodle() {
         super(30);
