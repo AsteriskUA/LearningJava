@@ -1,6 +1,4 @@
-package class_object;
-
-import java.awt.image.renderable.ParameterBlock;
+package class_object.equalse_hascode;
 
 public class Runner {
     public static void main(String[] args) {
