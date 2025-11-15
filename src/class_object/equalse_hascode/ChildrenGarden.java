@@ -1,4 +1,4 @@
-package class_object;
+package class_object.equalse_hascode;
 
 public class ChildrenGarden {
     private Child[] children;

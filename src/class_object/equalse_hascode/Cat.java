@@ -1,4 +1,4 @@
-package class_object;
+package class_object.equalse_hascode;
 
 public class Cat extends Object{
     private String catName;
