@@ -22,12 +22,21 @@ public class Runner {
 
         boolean result = false;
 
+//        for (Child child : childrenGarden.getChildren()) {
+//            if (child.getName().equals("Go-Go") && child.getYear() == 2046){
+//            result = true;
+//            break;
+//            }
+//        }
+
+        Child childForFind = new Child("Emma", 2042);
+
         for (Child child : childrenGarden.getChildren()) {
-            if (child.getName().equals("Go-Go") && child.getYear() == 2046){
+            if (child.equals(childForFind))
             result = true;
             break;
-            }
         }
+
         System.out.println(result);
     }
 }
