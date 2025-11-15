@@ -1,4 +1,4 @@
-package class_object.equalse_hascode;
+package class_object.HashCode;
 
 public class Child {
     private String name;

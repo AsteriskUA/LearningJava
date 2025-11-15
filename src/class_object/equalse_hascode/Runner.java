@@ -1,5 +1,8 @@
 package class_object.equalse_hascode;
 
+import class_object.HashCode.Child;
+import class_object.HashCode.ChildrenGarden;
+
 public class Runner {
     public static void main(String[] args) {
 //        Cat cat = new Cat("Шерстяний");

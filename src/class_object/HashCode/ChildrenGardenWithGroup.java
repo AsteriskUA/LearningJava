@@ -1,6 +1,4 @@
-package HashCode;
-
-import class_object.Child;
+package class_object.HashCode;
 
 public class ChildrenGardenWithGroup {
     private Child[][] children;
