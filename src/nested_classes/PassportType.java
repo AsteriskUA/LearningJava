@@ -1,0 +1,5 @@
+package nested_classes;
+
+public enum PassportType {
+    INNER, FOREING;
+}
