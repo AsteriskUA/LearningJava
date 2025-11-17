@@ -1,5 +1,8 @@
 package class_object.equalse_hascode;
 
+import class_object.HashCode.Child;
+import class_object.HashCode.ChildrenGarden;
+
 public class Runner {
     public static void main(String[] args) {
 //        Cat cat = new Cat("Шерстяний");
@@ -20,12 +23,21 @@ public class Runner {
 
         boolean result = false;
 
+//        for (Child child : childrenGarden.getChildren()) {
+//            if (child.getName().equals("Go-Go") && child.getYear() == 2046){
+//            result = true;
+//            break;
+//            }
+//        }
+
+        Child childForFind = new Child("Emma", 2042);
+
         for (Child child : childrenGarden.getChildren()) {
-            if (child.getName().equals("Go-Go") && child.getYear() == 2046){
+            if (child.equals(childForFind))
             result = true;
             break;
-            }
         }
+
         System.out.println(result);
     }
 }
